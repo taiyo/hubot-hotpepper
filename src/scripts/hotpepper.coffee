@@ -34,7 +34,7 @@ module.exports = (robot) ->
             name = shop.name
             addr = shop.address
             url  = shop.urls.pc
-            msg.send img
+            #msg.send img
             msg.send [name, addr, url].join "\n"
           catch e
             msg.send e.toString()
